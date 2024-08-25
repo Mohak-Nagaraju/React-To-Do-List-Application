@@ -1,40 +1,45 @@
-# Getting Started with Create React App
+# React To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a simple React application for managing a to-do list. It allows users to add new tasks, mark tasks as completed, and delete tasks from the list. The application uses functional components and React hooks for state management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add Task**: Users can add new tasks to the list.
+- **Complete Task**: Users can mark tasks as completed, which changes the background color of the task.
+- **Delete Task**: Users can delete tasks from the list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `src/App.js`: Main application component that manages the state of the to-do list and renders the task list and input elements.
+- `src/Task.js`: Component for rendering individual tasks with options to complete or delete them.
+- `src/App.css`: Styles for the application, including layout and design for tasks and input elements.
+- `src/index.js`: Entry point for the React application that renders the `App` component.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-todo-list.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+    ```bash
+   cd react-todo-list
+    ```
+3. Install dependencies:
+    ```bash
+   npm install
+    ```
+4. Start the development server:
+    ```bash
+   npm install
+    ```
+5. Open your browser and go to `http://localhost:3000` to see the application in action.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+- To add a task, type the task name in the input field and click the "Add Task" button.
+- To mark a task as completed, click the "Complete" button next to the task.
+- To delete a task, click the "X" button next to the task.
